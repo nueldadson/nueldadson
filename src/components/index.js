@@ -1,7 +1,7 @@
 import Button from "./Button";
-import SkillTab from "./skillTab";
+import SkillTab from "./SkillTab";
 
 export {
-    SkillTab,
     Button,
+    SkillTab,
 }
