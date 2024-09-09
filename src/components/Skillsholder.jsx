@@ -26,10 +26,10 @@ const SkillTab = () => {
           Software Development
         </h1>
         <div className="flex flex-row gap-12 max-sm:gap-8 max-[458px]:gap-4 gap-y-7 max-md:gap-y-4 max-sm:gap-y-3 mt-3 grid grid-cols-2 max-[860px]:grid-cols-3 max-md:grid-cols-2 max-[432px]:scale-[93%] max-[400px]:grid-cols-1 max-[400px]:scale-100">
-          <Skilllist iconURL={cmimg} skill='MERN' level="Experienced" />
+          <Skilllist iconURL={cmimg} skill='MERN & MEAN' level="Experienced" />
           <Skilllist iconURL={cmimg} skill='REACT-NATIVE' level="Experienced" />
           <Skilllist iconURL={cmimg} skill='PHP' level="Laravel, CodeIgniter..." />
-          <Skilllist iconURL={cmimg} skill='NEST' level="Experienced" />
+          <Skilllist iconURL={cmimg} skill='NEST' level="TypeScript" />
           <Skilllist iconURL={cmimg} skill='PYTHON' level="Django, Flask, FastAPI..." />
           <Skilllist iconURL={cmimg} skill='DATABASE' level="MySQL, FIrebase..." />
           <Skilllist iconURL={cmimg} skill='Cloud Dev' level="Experienced" />

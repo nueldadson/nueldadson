@@ -1,5 +1,4 @@
 import { Fade } from "react-awesome-reveal";
-// import { cmimg } from "../assets/images";
 import './experience.css';
 import { Skillsholder } from "../components";
 

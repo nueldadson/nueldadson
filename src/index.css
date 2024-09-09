@@ -5,6 +5,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom scrollbar styling */
+.scrollbar-thin {
+	scrollbar-width: thin;
+	/* For Firefox */
+	scrollbar-color: gray lightgray;
+	/* For Firefox */
+}
+
 * {
 	margin: 0;
 	padding: 0;

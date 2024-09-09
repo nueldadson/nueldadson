@@ -8,9 +8,9 @@ const Skilllist = ({
       {iconURL && (
         <img src={iconURL} alt="icon" className="w-[35px] h-[35px] "/>
       )}
-      <div className="w-full min-h-[fit-content] flex flex-col items-start overflow-auto break-words hide-scrollbar">
+      <div className="w-full py-1 h-[fit-content] flex flex-col items-start overflow-auto break-words">
         <h1 className="font-bold text-xl normal-case max-w-[100%] max-sm:text-base">{skill}</h1>
-        <span className="text-gray-700 leading-4">{level}</span>
+        <span className="text-gray-700 leading-4 max-w-[100%]">{level}</span>
       </div>
     </div>
   );

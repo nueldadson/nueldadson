@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import { Hero, About, Experience } from "../sections";
+import { Hero, About, Experience, Projects } from "../sections";
 
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
 			<Hero />
 			<About />
 			<Experience />
+			<Projects />
 		</div>
 	);
 };
