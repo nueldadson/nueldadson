@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import { Hero, About, Experience, Projects } from "../sections";
+import { Hero, About, Experience, Projects, Contact } from "../sections";
 
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
 			<About />
 			<Experience />
 			<Projects />
+			<Contact />
 		</div>
 	);
 };

@@ -26,11 +26,11 @@ const About = () => {
                   <SkillTab 
                     label="Experience"
                     iconURL={epimg}
-                    description1="3+ years"
+                    description1="2+ years"
                     description2="Software Development"
                   />
                   <SkillTab 
-                    label="Experience"
+                    label="Education"
                     iconURL={edimg}
                     description1="BSc"
                     description2="Computer Science"
