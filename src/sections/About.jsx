@@ -32,7 +32,7 @@ const About = () => {
                   <SkillTab 
                     label="Education"
                     iconURL={edimg}
-                    description1="BSc"
+                    description1="BSc [In View]"
                     description2="Computer Science"
                   />
                 </div>

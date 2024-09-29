@@ -23,11 +23,19 @@ const Contact = () => {
                     <div className="flex flex-row max-sm:flex-col h-fit w-fit border border-gray-500 p-[1.3rem] max-sm:px-[1.5rem] max-sm:py-[1rem] rounded-3xl cursor-pointer gap-8 max-sm:gap-2 items-center">
                         <div className='flex flex-row justify-center items-center gap-1'>
                             <img src={emimg} alt="icon" className="w-[45px] h-[45px] "/>
-                            <h1 className="text-xl normal-case max-w-[100%] max-sm:text-base">Cyberribs@gmail.com</h1>
+                            <h1 className="text-xl normal-case max-w-[100%] max-sm:text-base">
+                                <a href='mailto:cyberribs@gmail.com'>
+                                    Cyberribs@gmail.com
+                                </a>
+                            </h1>
                         </div>
                         <div className='flex flex-row justify-center items-center gap-1'>
                             <img src={liimg} alt="icon" className="w-[37px] h-[37px] "/>
-                            <h1 className="text-xl normal-case max-w-[100%] max-sm:text-base">Linkedin</h1>
+                            <h1 className="text-xl normal-case max-w-[100%] max-sm:text-base">
+                                <a href='https://www.linkedin.com/in/emmanuel-gideon-dada-520260237/'>
+                                    Linkedin
+                                </a>
+                            </h1>
                         </div>
                     </div>
                 </div>

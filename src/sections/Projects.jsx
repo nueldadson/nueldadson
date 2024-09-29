@@ -1,5 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import { Tabs } from "../components";
+import { gamedey, pinit, pedawall, natchies, demonatchies, cyberribs, portfolio, aflw, fitness } from "../assets/images";
 
 
 const Projects = () => {
@@ -53,35 +54,90 @@ const Projects = () => {
 
     const tabItems = [
   {
-    label: 'Software Development',
+    label: 'Web Development',
     projects: [
       {
-        iframeLink: 'https://natchiesmerch.netlify.app',
-        heading: 'Project 1',
-        description: 'Description of Software Development Project 1',
+        img: gamedey,
+        Link: 'https://gamedey.co',
+        githubLink: 'https://github.com/nueldadson/gamedey-landing-page',
+        heading: 'Gamedey Website',
+        description: 'd',
       },
       {
-        iframeLink: 'https://cyberribs.com.ng',
-        heading: 'Project 2',
-        description: 'Description of Software Development Project 2',
+        img: pinit,
+        Link: 'https://pinitlandingpage.netlify.app',
+        githubLink: 'https://github.com/nueldadson/pinit.landingpage',
+        heading: 'PinIt Landing Page',
+        description: 'ff',
+      },
+      {
+        img: pedawall,
+        Link: 'https://pedawalldemo.vercel.app',
+        githubLink: 'https://github.com/nueldadson/pedawalldemo',
+        heading: 'Pedawalls Demo',
+        description: 'd',
+      },
+      {
+        img: natchies,
+        Link: 'https://natchiesmerch.netlify.app',
+        githubLink: 'https://github.com/nueldadson/natchiesmerch',
+        heading: 'Natchies Merch Web App',
+        description: 'd',
+      },
+      {
+        img: demonatchies,
+        Link: 'https://demo-natchies-merch.vercel.app',
+        githubLink: 'https://github.com/nueldadson/demo-natchies-merch',
+        heading: 'Natchies Merch Shoe Store Demo',
+        description: 'd',
+      },
+      {
+        img: cyberribs,
+        Link: 'https://cyberribs.com.ng',
+        githubLink: 'https://github.com/nueldadson/cyberribs',
+        heading: 'CyberRibs Web App',
+        description: 's',
+      },
+      {
+        img: portfolio,
+        Link: 'https://nueldadson.com.ng',
+        githubLink: 'https://github.com/nueldadson/nueldadson',
+        heading: 'Portfolio Template',
+        description: 's',
+      },
+      {
+        img: aflw,
+        Link: 'https://aflw-project.vercel.app',
+        githubLink: 'https://github.com/nueldadson/aflwProject',
+        heading: 'AFLW Landing Page',
+        description: 's',
+      },
+      {
+        img: fitness,
+        Link: 'https://bootstrap-fitness-website-jquery.vercel.app/',
+        githubLink: 'https://github.com/nueldadson/Bootstrap_fitness_website_Jquery',
+        heading: 'Fitness Arena Template',
+        description: 's',
       },
     ],
   },
-  {
-    label: 'Front-end Development',
-    projects: [
-      {
-        iframeLink: 'https://example3.com',
-        heading: 'Project 3',
-        description: 'Description of Front-end Development Project 3',
-      },
-      {
-        iframeLink: 'https://gamedey.co',
-        heading: 'Project 4',
-        description: 'Description of Front-end Development Project 4',
-      },
-    ],
-  },
+  // {
+  //   label: 'UI-UX',
+  //   projects: [
+  //     {
+  //       Link: 'https://example3.com',
+  //       githubLink: 'https://example3.com',
+  //       heading: 'Project 3',
+  //       description: 'Description of Front-end Development Project 3',
+  //     },
+  //     {
+  //       Link: 'https://gamedey.co',
+  //       githubLink: 'https://gamedey.co',
+  //       heading: 'Project 4',
+  //       description: 'Description of Front-end Development Project 4',
+  //     },
+  //   ],
+  // },
   // Additional categories...
 ];
 

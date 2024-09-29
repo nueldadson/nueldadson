@@ -30,6 +30,7 @@ const SkillTab = () => {
           <Skilllist iconURL={cmimg} skill='PHP' level="Laravel" />
           <Skilllist iconURL={cmimg} skill='PYTHON' level="Django" />
           <Skilllist iconURL={cmimg} skill='JAVASCRIPT' level="Experienced" />
+          <Skilllist iconURL={cmimg} skill='TYPESCRIPT' level="Experienced" />
           <Skilllist iconURL={cmimg} skill='DATABASE' level="MySQL, Firebase..." />
           <Skilllist iconURL={cmimg} skill='WORDPRESS/WIX' level="Experienced" />
           <Skilllist iconURL={cmimg} skill='GIT & GITHUB' level="Experienced" />

@@ -17,9 +17,9 @@ const Hero = () => {
 							</h1>
 							<h2 className=" text-xl font-bold">Software Developer</h2>
 							<div className="flex flex-row gap-6">
-								<FaLinkedinIn size={25} className="bg-black rounded-md p-[2px] cursor-pointer" color="white" />
-								<FaGithub size={25} color="black" className="cursor-pointer" />
-								<FaWhatsapp size={25} color="white" className="bg-black rounded-md p-[2px] cursor-pointer"/>
+								<a href='https://www.linkedin.com/in/emmanuel-gideon-dada-520260237/' target="_blank"> <FaLinkedinIn size={25} className="bg-black rounded-md p-[2px] cursor-pointer" color="white" /> </a>
+								<a href='https://github.com/nueldadson' target="_blank"> <FaGithub size={25} color="black" className="cursor-pointer" /> </a>
+								<a href='https://wa.me/gr/MRTML6GN2PCJG1' target="_blank"> <FaWhatsapp size={25} color="white" className="bg-black rounded-md p-[2px] cursor-pointer"/> </a>
 							</div>
 							<p className="text-lg font-semibold">Delivering scalable, high-performance applications with a full-stack approach to Modern Web Solutions.</p>
 						</div>
