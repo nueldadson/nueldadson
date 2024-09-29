@@ -67,7 +67,7 @@ const Tabs = ({ tabItems }) => {
               <TabItem key={index} direction={direction}>
                 {item.projects.map((project, idx) => (
                   <div key={idx} className="w-[100%] h-fit flex flex-row max-[910px]:flex-col py-6">
-                    <div className="bg-red-500 w-[40%] h-[300px] shadow-md shadow-gray-700 max-[910px]:h-[400px] max-[530px]:h-[300px] p-4 rounded-3xl max-[910px]:w-full relative group"
+                    <div className="bg-red-500 w-[40%] h-[300px] shadow-md shadow-gray-700 max-[910px]:h-[400px] max-[530px]:h-[300px] max-[450px]:h-[220px] p-4 rounded-3xl max-[910px]:w-full relative group"
                         style={{ backgroundImage: `url(${project.img})`, backgroundPosition: 'top center', backgroundSize: 'cover' }}
                     >
                       <div className="absolute inset-0 bg-black bg-opacity-30 rounded-3xl flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">

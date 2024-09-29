@@ -1,6 +1,6 @@
 import { Fade } from "react-awesome-reveal";
 import { Tabs } from "../components";
-import { gamedey, pinit, pedawall, natchies, demonatchies, cyberribs, portfolio, aflw, fitness } from "../assets/images";
+import { gamedey, pinit, pedawall, natchies, demonatchies, cyberribs, portfolio, aflw, fitness, pinitui, cloudadore } from "../assets/images";
 
 
 const Projects = () => {
@@ -121,23 +121,25 @@ const Projects = () => {
       },
     ],
   },
-  // {
-  //   label: 'UI-UX',
-  //   projects: [
-  //     {
-  //       Link: 'https://example3.com',
-  //       githubLink: 'https://example3.com',
-  //       heading: 'Project 3',
-  //       description: 'Description of Front-end Development Project 3',
-  //     },
-  //     {
-  //       Link: 'https://gamedey.co',
-  //       githubLink: 'https://gamedey.co',
-  //       heading: 'Project 4',
-  //       description: 'Description of Front-end Development Project 4',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'UI-UX',
+    projects: [
+      {
+        img: cloudadore ,
+        Link: '/',
+        githubLink: 'https://www.figma.com/proto/PGbcbLekQfyuJe9YiwhjFk/Cloudadore-Swag-Store-ui?node-id=417-615&node-type=canvas&t=zzU3JxJ7B2r3OvXX-0&scaling=scale-down&content-scaling=fixed&page-id=417%3A615',
+        heading: 'Cloudadore Community Swag Store UI',
+        description: 'Description of Front-end Development Project 3',
+      },
+      {
+        img: pinitui ,
+        Link: 'https://pinitlandingpage.netlify.app',
+        githubLink: 'https://www.figma.com/proto/Rwwp6Mbma2rsNaWjqkD16A/Pin-It-Landing-Page?node-id=1-2&node-type=canvas&t=hEb5qfVhBV4HLUFy-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1',
+        heading: 'PinIt Landing Page UI',
+        description: 'Description of Front-end Development Project 4',
+      },
+    ],
+  },
   // Additional categories...
 ];
 

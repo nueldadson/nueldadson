@@ -12,6 +12,8 @@ import natchies from './webpages/natchies.jpg'
 import pedawall from './webpages/pedawall.jpg'
 import portfolio from './webpages/portfolio.jpg'
 import pinit from './webpages/pinit.jpg'
+import pinitui from './webpages/pinitui.jpg'
+import cloudadore from './webpages/cloudadore.jpg'
 
 export{
     epimg,
@@ -28,4 +30,6 @@ export{
     pedawall,
     portfolio,
     pinit,
+    pinitui,
+    cloudadore,
 }
