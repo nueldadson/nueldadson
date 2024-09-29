@@ -68,7 +68,9 @@ const Projects = () => {
         Link: 'https://pinitlandingpage.netlify.app',
         githubLink: 'https://github.com/nueldadson/pinit.landingpage',
         heading: 'PinIt Landing Page',
-        description: "Pinit is a mobile application designed to address the challenges associated with lost term managerment and child salety in Nigeria Pinit aims to provide a comprehensive solution for individuals and parents concerned about lost lems, including children, by offering a versatile pinning system that allows users to securely track and manage vanous belongings. The purpose of Pinit is to offer peace of mind efficierit return of lost items, and a sense of security through pin allocation and database managecrent, enabling users to pin anything from valuable personal items to important documents and more",
+        description: "Pinit is a mobile application designed to address the challenges of lost item management and child safety in Nigeria. It offers a comprehensive solution for individuals and parents concerned about lost items, including children, by providing a versatile pinning system that allows users to securely track and manage various belongings. Pinit aims to offer peace of mind, facilitate the efficient return of lost items, and provide a sense of security through pin allocation and database management, enabling users to pin anything from valuable personal items to important documents and more.
+
+", 
       },
       {
         img: pedawall,
@@ -129,14 +131,16 @@ const Projects = () => {
         Link: '/',
         githubLink: 'https://www.figma.com/proto/PGbcbLekQfyuJe9YiwhjFk/Cloudadore-Swag-Store-ui?node-id=417-615&node-type=canvas&t=zzU3JxJ7B2r3OvXX-0&scaling=scale-down&content-scaling=fixed&page-id=417%3A615',
         heading: 'Cloudadore Community Swag Store UI',
-        description: 'Description of Front-end Development Project 3',
+        description: '',
       },
       {
         img: pinitui ,
         Link: 'https://pinitlandingpage.netlify.app',
         githubLink: 'https://www.figma.com/proto/Rwwp6Mbma2rsNaWjqkD16A/Pin-It-Landing-Page?node-id=1-2&node-type=canvas&t=hEb5qfVhBV4HLUFy-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1',
         heading: 'PinIt Landing Page UI',
-        description: 'Description of Front-end Development Project 4',
+        description: 'Pinit is a mobile application designed to address the challenges of lost item management and child safety in Nigeria. It offers a comprehensive solution for individuals and parents concerned about lost items, including children, by providing a versatile pinning system that allows users to securely track and manage various belongings. Pinit aims to offer peace of mind, facilitate the efficient return of lost items, and provide a sense of security through pin allocation and database management, enabling users to pin anything from valuable personal items to important documents and more.
+
+ ',
       },
     ],
   },
