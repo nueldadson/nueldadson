@@ -68,7 +68,7 @@ const Projects = () => {
         Link: 'https://pinitlandingpage.netlify.app',
         githubLink: 'https://github.com/nueldadson/pinit.landingpage',
         heading: 'PinIt Landing Page',
-        description: "Pinit is a mobile application designed to address the challenges of lost item management and child safety in Nigeria. It offers a comprehensive solution for individuals and parents concerned about lost items, including children, by providing a versatile pinning system that allows users to securely track and manage various belongings. Pinit aims to offer peace of mind, facilitate the efficient return of lost items, and provide a sense of security through pin allocation and database management, enabling users to pin anything from valuable personal items to important documents and more.
+        description: "Pinit is a mobile application  designed to address the challenges of lost item management and child safety in Nigeria. It offers a comprehensive solution for individuals and parents concerned about lost items, including children, by providing a versatile pinning system that allows users to securely track and manage various belongings. Pinit aims to offer peace of mind, facilitate the efficient return of lost items, and provide a sense of security through pin allocation and database management, enabling users to pin anything from valuable personal items to important documents and more.
 
 ", 
       },
