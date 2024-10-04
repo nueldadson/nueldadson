@@ -79,7 +79,7 @@ const Projects = () => {
       },
       {
         img: natchies,
-        Link: 'https://natchiesmerch.netlify.app',
+        Link: 'https://natchiesmerch.vercel.app',
         githubLink: 'https://github.com/nueldadson/natchiesmerch',
         heading: 'Natchies Merch Web App',
         description: "Welcome to Natchies Merch! At Natchies Merch, we blend the worlds of anime, tech, and personalized style to elevate your fashion game. Join our vibrant community and experience the fusion of creativity, technology, and fashion, as we take innovation to the next level with AI-powered designs. Embrace the future of fashion with us!" ,
