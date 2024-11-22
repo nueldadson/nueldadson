@@ -14,7 +14,8 @@ const App = () => {
 
 	return (
 		<main>
-			<Home />
+{/* 			<Home /> */}
+			..................Updating
 		</main>
 	);
 };
