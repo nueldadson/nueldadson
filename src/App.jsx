@@ -1,4 +1,4 @@
-import { Home } from "./pages";
+
 // import { Nav } from "./components";
 // import { useState } from "react";
 // import { Slide } from "react-awesome-reveal";
